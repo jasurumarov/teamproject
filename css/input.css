@@ -11,6 +11,10 @@
     src: url('../fonts/Montserrat-Regular.ttf');
 }
 @font-face {
+    font-family: 'Montserrat600';
+    src: url('../fonts/Montserrat-SemiBold.ttf');
+}
+@font-face {
     font-family: 'Poppins';
     src: url('../fonts/Poppins-Regular.ttf');
 }

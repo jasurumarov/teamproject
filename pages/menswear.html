@@ -73,9 +73,201 @@
         </nav>
     </header>
 
-    <main></main>
+    <main class="mt-[110px] bg-[#fafafa]">
+        <section class="pt-10 pb-16">
+            <div class="container mx-auto px-5">
+                <div class=" flex gap-1 pb-8">
+                    <a class="text-sm font-semibold tracking-[0.1px] hover:text-gray-700" href="../index.html">Главная</a>
+                    <p class="text-sm font-semibold tracking-[0.1px]">/</p>
+                    <a class="text-sm font-semibold tracking-[0.1px] hover:text-gray-700" href="./category.html">Категории</a>
+                    <p class="text-sm font-semibold tracking-[0.1px]">/</p>
+                    <a class="text-sm font-semibold tracking-[0.1px] hover:text-gray-700" href="./menswear.html">Мужская одежда</a>
+                </div>
+                <article class="flex flex-col xl:flex-row gap-[30px]">
+                    <aside class="hidden xl:block w-[264px] h-[316px] bg-white">
+                        <p class="p-4 shadow-menswear text-[30px] leading-8">
+                            Filter
+                        </p>
+                        <p class="py-4 pl-4 pr-2 shadow-menswear text-[20px] leading-7 flex items-center justify-between">
+                            Category
+                            <svg style="cursor: pointer;" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.2666 6.40002H11.7333L7.99994 11.2L4.2666 6.40002Z" fill="black"/>
+                            </svg>
+                        </p>
+                        <p class="py-4 pl-4 pr-2 shadow-menswear text-[20px] leading-7 flex items-center justify-between">
+                            Gender                            
+                            <svg style="cursor: pointer;" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.2666 6.40002H11.7333L7.99994 11.2L4.2666 6.40002Z" fill="black"/>
+                            </svg>
+                        </p>
+                        <p class="py-4 pl-4 pr-2 shadow-menswear text-[20px] leading-7 flex items-center justify-between">
+                            Price
+                            <svg style="cursor: pointer;" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.2666 6.40002H11.7333L7.99994 11.2L4.2666 6.40002Z" fill="black"/>
+                            </svg>
+                        </p>
+                        <div class="p-4 shadow-menswear">
+                            <button class="bg-[#FFC000] font-medium h-10 w-[232px] text-center cursor-pointer text-colorSecond text-sm leading-[0.56px] hover:text-white hover:bg-colorSecond duration-300">Clean filter</button>
+                        </div>
+                    </aside>
+                    <aside class="xl:hidden flex justify-center gap-6">
+                        <button class="p-2 flex items-center gap-[10px] bg-white rounded text-sm tracking-[0.25px]">
+                            Сортировка
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_224_2415)">
+                                  <path d="M6 9L12 15L18 9" stroke="#0D0D0D" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_224_2415">
+                                    <rect width="24" height="24" fill="white"/>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                        </button>
+                        <button class="p-2 flex items-center gap-[40px] bg-white rounded text-sm tracking-[0.25px]">
+                            Фильтры
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_224_2412)">
+                                  <path d="M3.66674 3.33337H12.3334C12.4294 3.36705 12.5164 3.42225 12.5878 3.49475C12.6592 3.56725 12.7131 3.65513 12.7452 3.75166C12.7774 3.84818 12.7871 3.95079 12.7735 4.05162C12.7598 4.15245 12.7233 4.24883 12.6667 4.33337L9.33341 8.00004V12.6667L6.66674 10.6667V8.00004L3.3334 4.33337C3.2768 4.24883 3.2403 4.15245 3.22669 4.05162C3.21309 3.95079 3.22274 3.84818 3.25491 3.75166C3.28709 3.65513 3.34093 3.56725 3.41231 3.49475C3.4837 3.42225 3.57073 3.36705 3.66674 3.33337Z" stroke="#0D0D0D" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_224_2412">
+                                    <rect width="16" height="16" fill="white"/>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                        </button>
+                    </aside>
+                    <section class="hidden xl:flex flex-col gap-4">
+                        <div class="flex gap-[30px]">
+                            <div class="max-w-[264px]">
+                                <img src="../images/menswear/mens-1.png" alt="First Style">
+                                <p class="py-2 text-sm font-montserrat600 leading-[19.6px] tracking-[0.75px] uppercase">Lorem ipsum dolor sit amet</p>
+                                <div class="flex items-center justify-between">
+                                    <img src="../images/menswear/stars.svg" alt="Stars Icon">
+                                    <p class="text-[10px] font-montserrat600 font-bold">855 у.е.</p>
+                                </div>
+                            </div>
+                            <div class="max-w-[264px]">
+                                <img src="../images/menswear/mens-2.png" alt="First Style">
+                                <p class="py-2 text-sm font-montserrat600 leading-[19.6px] tracking-[0.75px] uppercase">Lorem ipsum dolor sit amet</p>
+                                <div class="flex items-center justify-between">
+                                    <img src="../images/menswear/stars.svg" alt="Stars Icon">
+                                    <p class="text-[10px] font-montserrat600 font-bold">855 у.е.</p>
+                                </div>
+                            </div>
+                            <div class="max-w-[264px]">
+                                <img src="../images/menswear/mens-3.png" alt="First Style">
+                                <p class="py-2 text-sm font-montserrat600 leading-[19.6px] tracking-[0.75px] uppercase">Lorem ipsum dolor sit amet</p>
+                                <div class="flex items-center justify-between">
+                                    <img src="../images/menswear/stars.svg" alt="Stars Icon">
+                                    <p class="text-[10px] font-montserrat600 font-bold">855 у.е.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-[30px]">
+                            <div class="max-w-[264px]">
+                                <img src="../images/menswear/mens-1.png" alt="First Style">
+                                <p class="py-2 text-sm font-montserrat600 leading-[19.6px] tracking-[0.75px] uppercase">Lorem ipsum dolor sit amet</p>
+                                <div class="flex items-center justify-between">
+                                    <img src="../images/menswear/stars.svg" alt="Stars Icon">
+                                    <p class="text-[10px] font-montserrat600 font-bold">855 у.е.</p>
+                                </div>
+                            </div>
+                            <div class="max-w-[264px]">
+                                <img src="../images/menswear/mens-2.png" alt="First Style">
+                                <p class="py-2 text-sm font-montserrat600 leading-[19.6px] tracking-[0.75px] uppercase">Lorem ipsum dolor sit amet</p>
+                                <div class="flex items-center justify-between">
+                                    <img src="../images/menswear/stars.svg" alt="Stars Icon">
+                                    <p class="text-[10px] font-montserrat600 font-bold">855 у.е.</p>
+                                </div>
+                            </div>
+                            <div class="max-w-[264px]">
+                                <img src="../images/menswear/mens-3.png" alt="First Style">
+                                <p class="py-2 text-sm font-montserrat600 leading-[19.6px] tracking-[0.75px] uppercase">Lorem ipsum dolor sit amet</p>
+                                <div class="flex items-center justify-between">
+                                    <img src="../images/menswear/stars.svg" alt="Stars Icon">
+                                    <p class="text-[10px] font-montserrat600 font-bold">855 у.е.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-[30px]">
+                            <div class="max-w-[264px]">
+                                <img src="../images/menswear/mens-1.png" alt="First Style">
+                                <p class="py-2 text-sm font-montserrat600 leading-[19.6px] tracking-[0.75px] uppercase">Lorem ipsum dolor sit amet</p>
+                                <div class="flex items-center justify-between">
+                                    <img src="../images/menswear/stars.svg" alt="Stars Icon">
+                                    <p class="text-[10px] font-montserrat600 font-bold">855 у.е.</p>
+                                </div>
+                            </div>
+                            <div class="max-w-[264px]">
+                                <img src="../images/menswear/mens-2.png" alt="First Style">
+                                <p class="py-2 text-sm font-montserrat600 leading-[19.6px] tracking-[0.75px] uppercase">Lorem ipsum dolor sit amet</p>
+                                <div class="flex items-center justify-between">
+                                    <img src="../images/menswear/stars.svg" alt="Stars Icon">
+                                    <p class="text-[10px] font-montserrat600 font-bold">855 у.е.</p>
+                                </div>
+                            </div>
+                            <div class="max-w-[264px]">
+                                <img src="../images/menswear/mens-3.png" alt="First Style">
+                                <p class="py-2 text-sm font-montserrat600 leading-[19.6px] tracking-[0.75px] uppercase">Lorem ipsum dolor sit amet</p>
+                                <div class="flex items-center justify-between">
+                                    <img src="../images/menswear/stars.svg" alt="Stars Icon">
+                                    <p class="text-[10px] font-montserrat600 font-bold">855 у.е.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="xl:hidden flex flex-col gap-4">
+                        <div class="flex justify-between">
+                            <div class="max-w-[160px] mb-1 pb-3 rounded-xl bg-white">
+                                <img class="max-h-[176px]" src="../images/menswear/mens-1.png" alt="First Style">
+                                <img class="pl-1" src="../images/menswear/stars.svg" alt="Stars Icon">
+                                <p class="pl-1 text-sm font-semibold my-1">Lorem ipsum dolor sit amet</p>
+                                <p class="pl-1 text-[10px] font-montserrat600 uppercase tracking-[1.5px]">855 у.е.</p>
+                            </div>
+                            <div class="max-w-[160px] mb-1 pb-3 rounded-xl bg-white">
+                                <img class="max-h-[176px]" src="../images/menswear/mens-1.png" alt="First Style">
+                                <img class="pl-1" src="../images/menswear/stars.svg" alt="Stars Icon">
+                                <p class="pl-1 text-sm font-semibold my-1">Lorem ipsum dolor sit amet</p>
+                                <p class="pl-1 text-[10px] font-montserrat600 uppercase tracking-[1.5px]">855 у.е.</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="max-w-[160px] mb-1 pb-3 rounded-xl bg-white">
+                                <img class="max-h-[176px]" src="../images/menswear/mens-1.png" alt="First Style">
+                                <img class="pl-1" src="../images/menswear/stars.svg" alt="Stars Icon">
+                                <p class="pl-1 text-sm font-semibold my-1">Lorem ipsum dolor sit amet</p>
+                                <p class="pl-1 text-[10px] font-montserrat600 uppercase tracking-[1.5px]">855 у.е.</p>
+                            </div>
+                            <div class="max-w-[160px] mb-1 pb-3 rounded-xl bg-white">
+                                <img class="max-h-[176px]" src="../images/menswear/mens-1.png" alt="First Style">
+                                <img class="pl-1" src="../images/menswear/stars.svg" alt="Stars Icon">
+                                <p class="pl-1 text-sm font-semibold my-1">Lorem ipsum dolor sit amet</p>
+                                <p class="pl-1 text-[10px] font-montserrat600 uppercase tracking-[1.5px]">855 у.е.</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="max-w-[160px] mb-1 pb-3 rounded-xl bg-white">
+                                <img class="max-h-[176px]" src="../images/menswear/mens-1.png" alt="First Style">
+                                <img class="pl-1" src="../images/menswear/stars.svg" alt="Stars Icon">
+                                <p class="pl-1 text-sm font-semibold my-1">Lorem ipsum dolor sit amet</p>
+                                <p class="pl-1 text-[10px] font-montserrat600 uppercase tracking-[1.5px]">855 у.е.</p>
+                            </div>
+                            <div class="max-w-[160px] mb-1 pb-3 rounded-xl bg-white">
+                                <img class="max-h-[176px]" src="../images/menswear/mens-1.png" alt="First Style">
+                                <img class="pl-1" src="../images/menswear/stars.svg" alt="Stars Icon">
+                                <p class="pl-1 text-sm font-semibold my-1">Lorem ipsum dolor sit amet</p>
+                                <p class="pl-1 text-[10px] font-montserrat600 uppercase tracking-[1.5px]">855 у.е.</p>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            </div>
+        </section>
+    </main>
 
-    <footer class="hidden xl:block">
+    <footer class="hidden xl:block pt-[46px] pb-[42px]">
         <div class="container mx-auto px-5 flex gap-[40px] justify-between flex-wrap">
             <div class="flex flex-wrap gap-[29px]">
                 <div class="flex flex-col gap-[15px] max-w-[265px]">
