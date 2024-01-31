@@ -73,7 +73,25 @@
         </nav>
     </header>
 
-    <main></main>
+    <main class=" container mx-auto font-montserrat xl:py-32 sm:flex-col">
+        <section class="xl:w-full items-center flex justify-around flex-col gap-10 sm:py-24">
+            <h1 class="font-black text-3xl  hover:font-bold">Оплата</h1>
+            <div class="md:flex xl:gap-y-40 xl:w-full  xl:justify-around w-full sm:w-full px-7 items-center sm:justify-center ">
+                <div class=" xl:block  xl:w-96 sm:hidden items-center sm:w-full xl:justify-center"><img class="" src="../images/oplata img/left.png" alt=""></div>
+                <div class="flex flex-col gap-9">
+                    <input class="xl:w-96 outline-none  px-4 h-16 bg-slate-50 text-black sm:w-full sm:px-6" type="text" placeholder="Имя на карте">
+                    <input class="xl:w-96 outline-none  px-4 h-16 bg-slate-50 sm:w-full" type="text" placeholder="Номер карты">
+                    <div class="flex flex-col gap-2 "><label class=" xl:block sm:hidden" for="input">Cрок хранения</label>
+                    <input class=" outline-none xl:block sm:hidden w-96  px-4 h-16 bg-slate-50 sm:w-full" type="text" placeholder="MM/YY">
+                    <input class="xl:hidden w-96 outline-none  px-4 h-16 bg-slate-50 sm:w-full" type="text" placeholder="Cрок хранения">
+                </div>
+                <button class=" xl:block sm:hidden bg-colorFirst h-14 duration-500 hover:bg-black text-white sm:w-full">Оплатить</button>
+                <button class= "xl:hidden bg-colorFirst h-14 duration-500 text-black  hover:bg-black hover:text-white sm:w-full">Оформить заказ</button>
+    
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer class="hidden xl:block pt-[46px] pb-[42px]">
         <div class="container mx-auto px-5 flex gap-[40px] justify-between flex-wrap">
