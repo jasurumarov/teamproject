@@ -6,8 +6,19 @@
     font-family: 'Inter';
     src: url('../fonts/Inter-Regular.ttf');
 }
-
 @font-face {
     font-family: 'Montserrat';
     src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: 'Montserrat600';
+    src: url('../fonts/Montserrat-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins700';
+    src: url('../fonts/Poppins-Bold.ttf');
 }
